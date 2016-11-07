@@ -1,0 +1,29 @@
+<!-- Module -->
+<script src="js/app.js"></script> 
+
+<!-- Controller -->
+<script src='js/controllers/dateTime.js'></script>
+
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <div ng-controller="refresh_control" class='bottomDateTime' >
+              <span class='label label-default'>
+                  <i class='fa fa-clock-o'></i> {{date | date: 'yyyy-MM-dd HH:mm:ss Z': 'ECT'}}
+              </span>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href='http://www.zarph.com'>
+              <img src='img/logoZarph.png' class='logoSmall'/>
+            </a>
+          </li>
+        </ul>
+    </div>
+    <!-- /.container-fluid -->
+  </nav>

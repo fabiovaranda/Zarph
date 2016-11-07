@@ -1,0 +1,42 @@
+.logo{
+    width:300px;
+}
+.logoSmall{
+    width:80px;
+}
+.bottomDateTime{
+    padding-top:20%
+}
+.btnSubmit{
+  margin-top:1%
+}
+.tableHeader{
+    font-weight: bold
+}
+.row{
+    padding: 1%;
+}
+.rowToForm{
+    padding: 0.2%;
+}
+.textToForm{
+    width: 85%;
+}
+.containerTableModal {
+    display: table;
+    width:100%;
+}
+.rowTableModal {
+    display: table-row;
+}
+.leftColumnTableModal, .middleColumnTableModal, .rightColumnTableModal {
+    display: table-cell;
+    text-align: center;
+    padding-right: 5px;
+}
+.leftSpace{
+    margin-left:3%;
+}
+.iconTable{
+    width:2em;
+}
